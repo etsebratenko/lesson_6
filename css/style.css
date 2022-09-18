@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  height: calc(100vh -200px);
+}
+div {
+  border: 2px solid;
+  min-height: 100px ;
+}
+.header {
+  height: 100px;
+}
+.main {
+  width: calc(100% - 500px);
+  min-height: calc(100vh - 230px);
+  float: left;
+  margin-left: 300px;
+}
+.left {
+  width: 300px;
+  min-height: calc(100vh - 230px);
+  float: left;
+  margin-left: calc(-100% + 200px)
+}
+.right {
+  width: 200px;
+  min-height: calc(100vh - 230px);
+  float: left;
+}
+.footer {
+  height: 100px;
+
+}
+.clearfix {
+  clear: both;
+}
