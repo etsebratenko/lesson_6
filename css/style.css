@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  height: calc(100vh -200px);
+  height: calc(100vh - 200px);
 }
 div {
   border: 2px solid;
